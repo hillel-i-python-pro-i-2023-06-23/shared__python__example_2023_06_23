@@ -48,6 +48,7 @@ def some_action_1():
 def edit_human(human: Human) -> None:
     human.age = 10
 
+
 def some_generator():
     for i in range(10):
         yield i
