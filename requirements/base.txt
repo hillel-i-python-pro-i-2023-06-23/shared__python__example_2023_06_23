@@ -1,0 +1,4 @@
+# Base requirements. These are the only ones that are required to run the app.
+
+# For classes.
+pydantic==2.3.0
