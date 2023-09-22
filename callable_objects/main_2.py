@@ -4,15 +4,15 @@ from callable_objects.constants.actions_registry import REGISTRY
 
 def main():
     input_datas = [
-        'action_1',
-        'action_2',
+        "action_1",
+        "action_2",
     ]
 
     for input_data in input_datas:
         try:
             action = Actions(input_data)
         except ValueError:
-            print(f'Wrong data: {input_data=}')
+            print(f"Wrong data: {input_data=}")
             continue
 
         handler_class = REGISTRY[action]

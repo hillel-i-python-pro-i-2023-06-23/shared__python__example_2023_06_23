@@ -13,7 +13,7 @@ class BaseHandler(BaseModel):
     def run(self):
         class_name = self.__class__.__name__
 
-        print(f'start.{class_name}')
+        print(f"start.{class_name}")
 
         self.do()
-        print(f'end.{class_name}')
+        print(f"end.{class_name}")

@@ -15,4 +15,4 @@ REGISTRY: T_REGISTRY = {
 }
 
 # noinspection Assert
-assert len(REGISTRY) == len(Actions), 'Not all actions in registry.'
+assert len(REGISTRY) == len(Actions), "Not all actions in registry."

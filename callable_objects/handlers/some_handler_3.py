@@ -6,8 +6,8 @@ class SomeHandler3(BaseHandler):
     def do(self):
         app_storage = get_app_storage()
 
-        print(f'Previous: { app_storage.latest_class_name=}')
-        app_storage.latest_class_name = 'SomeHandler3'
-        print(f'Current: { app_storage.latest_class_name=}')
+        print(f"Previous: { app_storage.latest_class_name=}")
+        app_storage.latest_class_name = "SomeHandler3"
+        print(f"Current: { app_storage.latest_class_name=}")
 
         print(self.number * 3)
